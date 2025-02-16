@@ -29,7 +29,7 @@ class job_scraper:
         company_xpath   : XPATH for company names,
         location_xpath  : XPATH for job locations     
         csv_save        : True for saving scraped data in a csv file
-                      """
+        """
         self.website = website
         self.driver_path = driver_path
         self.options = self._set_chrome_options()
@@ -40,7 +40,6 @@ class job_scraper:
         self.company_xpath = company_xpath
         self.location_xpath = location_xpath
         self.csv_save = csv_save
-
 
     def _set_chrome_options(self):
         options1 = Options()
