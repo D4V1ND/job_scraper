@@ -141,6 +141,8 @@ class job_scraper:
 
 #Configure the chromedriver.exe path here
 path_to_chromedriver = ""
+
+#Example : (Website : Indeed)
 indeed_scraper = job_scraper("https://de.indeed.com/Jobs?q=werkstudent+informatik&l=m%C3%BCnchen&radius=50&vjk=3e48b496ee7d94a8",
                              path_to_chromedriver,
                              "//tr/td[@class='resultContent css-lf1alc eu4oa1w0'][div[h2]]",
